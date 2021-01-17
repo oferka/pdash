@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>pdash</artifactId>
-        <groupId>org.example</groupId>
+        <groupId>org.ok</groupId>
         <version>0.0.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -14,6 +14,13 @@
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.ok</groupId>
+            <artifactId>model-utils</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
